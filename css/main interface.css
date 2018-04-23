@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightcoral;
+}
+@font-face {
+    font-family: jjj;
+    src: url("../../font-awesome/jjj.ttf");
+}
+.title{
+    font-family: jjj;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    width: 600px;
+    margin: 100px auto 30px;
+    text-align: center;
+}
+.title1{
+    color: white;
+    width: 600px;
+    margin: 0px auto 20px;
+    text-align: center;
+}
+.title2{
+    line-height: 30px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin: 0px auto 20px;
+    font-size: 12px;
+}
+li{
+   color: white;
+    font-size: 50px;
+}
