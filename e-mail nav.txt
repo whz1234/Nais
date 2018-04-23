@@ -1,0 +1,98 @@
+<--!html-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="jjj.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="wrapper">
+         <div class="title"><span>我的邮箱</span></div>
+         <ul class="content">
+             <li><a href="#"><i class="fa fa-apple"></i><span class="name">收件箱</span><span class="number">32</span></a></li>
+             <li><a href="#"><i class="fa fa-apple"></i><span class="name">红旗邮件</span><span class="number">7</span></a></li>
+             <li><a href="#"><i class="fa fa-apple"></i><span class="name">已发送</span><span class="number">0/17</span></a></li>
+             <li><a href="#"><i class="fa fa-apple"></i><span class="name">草稿箱</span><span class="number">2</span></a></li>
+             <li><a href="#"><i class="fa fa-apple"></i><span class="name">已删除</span><span class="number">5</span></a></li>
+             <li><a href="#"><span class="name">所有邮件</span></a></li>
+         </ul>
+     </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!--css-->
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 200px;
+    /*border: 1px solid black;*/
+    font-size: 12px;
+}
+.title{
+    height: 40px;
+    line-height: 40px;
+    background: #ff4932;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title span{
+    margin-left: 10px;
+}
+.content a{
+      list-style: none;
+      height: 36px;
+      line-height: 36px;
+
+    color: #7f8071;
+    text-decoration: none;
+}
+.content li:hover{
+    background-color: #ffa14b;
+    border-radius: 2px;
+}
+.content li:hover .name{
+    font-weight: 600;
+    color: white;
+}
+.content li:hover .number{
+    background-color: #ff5f33;
+    border: 0px;
+    font-weight: 500;
+    color: white;
+}
+.name{
+    margin-left: 10px;
+}
+i{
+    margin-left: 10px;
+}
+
+.number:hover{
+    background-color: #ff7272;
+}
+.number{
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #808080;
+    padding: 0 7px;
+    line-height: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 7px;
+   margin-top: 9px;
+}
