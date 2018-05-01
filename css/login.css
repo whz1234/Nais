@@ -31,12 +31,20 @@ a{
     margin-left: 5px;
 }
 .logo{
+    width: 240px;
     height:  80px;
     /*border: 1px solid black;*/
-}
-.logo img{
     margin-left: 250px;
     /*border: 1px solid black;*/
+}
+/*.logo img{*/
+    /*margin-left: 250px;*/
+    /*!*border: 1px solid black;*!*/
+/*}*/
+@media all and (max-width: 768px) {
+      .logo{
+          margin:0 auto;
+      }
 }
 @font-face {
    font-family: name;
@@ -61,6 +69,7 @@ a{
     border-radius: 50%;
     top: 150px;
     left: 130px;
+    transition: all 1s;
 }
 .content{
     position: relative;
@@ -73,6 +82,7 @@ a{
     top: 80px;
     left: 210px;
     color: cadetblue;
+    transition: all 1s;
 }
 .login{
     width: 400px;
@@ -174,8 +184,8 @@ a{
 }
 .img{
     height: 40px;
-    margin-top: 105px;
     background-color: lightgrey;
+    margin-top: 105px;
 }
 .img>div{
     height: 40px;
@@ -192,12 +202,44 @@ a{
     margin-top: 20px;
     /*border: 1px solid black;*/
 }
-.bottom img{
-    width: 95px;
-    margin-left: 100px;
-}
-.bottom div{
+.wrap>div{
     display: inline-block;
+
+}
+.wrap{
+    display: flex;
+}
+.bottom img{
+    /*width: 40px;*/
+    height: 80px;
+    /*margin-left: 100px;*/
+}
+.bottom{
+    /*flex-wrap: wrap;*/
+    display: flex;
+    justify-content: space-around;
+}
+@media all and (max-width: 916px) {
+       .bottom{
+           flex-wrap: wrap;
+       }
+      .wrap{
+          width: 35%;
+          justify-content: space-around;
+          text-align: center;
+      }
+    @media all and (max-width: 685px){
+        .wrap{
+            width: 50%;
+            justify-content: space-around;
+            text-align: center;
+        }
+    }
+}
+@media all and (max-width: 480px) {
+    .wrap{
+        font-size: 10px;!important;
+    }
 }
 .xiao{
     font-size: 12px;
@@ -218,4 +260,34 @@ a{
 }
 .last a{
     color: gray;
+}
+.login{
+    transition: all .5s;
+}
+@media all and (max-width: 1240px) {
+       .login{
+           left:50%;
+           margin-left: -200px;
+           background-color: whitesmoke;
+       }
+      .content>span,.content>img{
+          width: 0px;
+          height: 0px;
+      }
+}
+@media all and (max-width: 415px) {
+       .bottom{
+           height: 0;
+           width: 0;
+           overflow: hidden;
+       }
+    .last{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+   .top{
+       position: absolute;
+       top: -20px;
+   }
 }
