@@ -1,0 +1,26 @@
+.wenben
+{
+    position: relative;
+    left: 25%;
+    width:1000px;
+    right: 25%;
+    background-color: white;
+    border-radius: 5px;
+}
+a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color:#87cefa ;
+    text-decoration: none;
+}
+a
+{
+    position: relative;
+    left: 25%;
+}
+.ziti
+{
+    position: relative;
+    left: 25%;
+}
