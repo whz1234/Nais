@@ -258,7 +258,7 @@ top:50px;
 }
 .zhinan
 {
-    background: url("bg_listNum.png");
+    background: url("../image/bg_listNum.png");
     background-repeat: no-repeat;
     color: white;
     float: left;
