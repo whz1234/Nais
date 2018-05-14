@@ -1,0 +1,308 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+}
+.top-line
+{
+    height: 3px;
+    background: linear-gradient(to right,red,yellow);
+}
+.logo{
+    height: 164px;
+    /*border:1px solid black;*/
+
+}
+.logo img{
+    margin: 23px;
+}
+.logo span{
+    vertical-align:40px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: -20px;
+}
+/*.logo>div{*/
+    /*display: block;*/
+    /*margin-left: 800px;*/
+    /*margin-top: 20px;*/
+/*}*/
+.content{
+    height: 445px;
+    width: 900px;
+    /*border: 1px solid black;*/
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px #807c7b;
+    border-radius: 10px;
+}
+.zhuce{
+    height: 85px;
+    /*border: 1px solid black;*/
+}
+.mast{
+    height: 360px;
+    /*border: 1px solid black;*/
+}
+.kk{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    color: #333;
+    line-height: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.a{
+    border-bottom: 3px solid #ffa00a
+}
+.sj{
+    height: 53px;
+    width: 400px;
+    /*border: 1px solid black;*/
+}
+.b{
+    vertical-align: 4px;
+}
+i{
+    color: red;
+    padding-right: 4px;
+    font-style:normal;
+    font-weight: normal;
+}
+.bk1
+{
+    display:inline;
+}
+.attachment
+{
+   display: inline;
+}
+
+.youxiang {
+    font-size: medium;
+    margin-left: -6px;
+    color: #0a8cd2;
+}
+.chuangko
+{
+    height: 30px;
+    width: 440px;
+
+    display:inline;
+}
+.text
+{
+    width: 112px;
+    box-shadow: none;
+}
+.text:focus{
+    outline: 1px solid #ff9b01 ;
+}
+.mima
+{
+    height: 53px;
+    width: 400px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+}
+.text2
+{
+    width: 120px;
+}
+.queren
+{
+    height: 53px;
+    width: 400px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+}
+.text2:focus
+{
+    outline: 1px solid #ff9b01 ;
+}
+.lijizhuce
+{
+    position: relative;
+    /*border: 1px solid #ff9b01;*/
+    border-radius: 2px;
+    top: -20px;
+}
+div>a>span
+{
+    color: white;
+}
+
+.zhucebian
+{
+    background-color:#ff9b01 ;
+    width:150px;
+    height:38px;
+    margin-top: 20px;
+}
+.xieyi
+{
+    width: 150px;
+    /*height: 30px;*/
+}
+
+.xieyi{
+    /*border: 1px solid red;*/
+}
+.agree
+{
+    margin: 0 0 7px;
+}
+p>a
+{
+    text-decoration: none;
+    color:#0a8cd2;
+}
+.mima,.queren,.sj,.attachment
+{
+    position: relative;
+    left:200px;
+}
+.sj
+{
+top:50px;
+}
+.zhucebian
+{
+    bottom:30px;
+}
+.zhucebian,.xieyi
+{
+    position: relative;
+    left: 300px;
+}
+.xieyi
+{
+    bottom: 30px;
+}
+.queren
+{
+    bottom: 20px;
+}
+.bottom
+{
+
+    /*border:1px solid black;*/
+    margin-left: 60%;
+    margin-right: 10px;
+    color: #6e9ab8;
+}
+.agree:hover
+{
+    text-decoration: underline;
+}
+.youxiang:hover
+{
+    text-decoration: underline;
+}
+.ziti{
+    position: relative;
+    left: 2px;
+    font-size: 12px;
+    color: darkgray;
+    display: inline-block;
+    font-style: normal;
+}
+.agree
+{
+    font-size: 12px;
+}
+.b{
+    position: relative;
+    top: 6px;
+}
+.xing1{
+    position: relative;
+    top: 6px;
+}
+.attachment
+{
+    position: relative;
+    top: 10px;
+}
+.pic1
+{
+    position: relative;
+    top: 5px;
+}
+.pic2
+{
+    position: relative;
+    top: 5px;
+}
+.right
+{
+    position: relative;
+    float: right;
+    width: 300px;
+    height:300px ;
+    border-left:1px solid darkgrey;
+
+}
+.right
+{
+    left: 10px;
+}
+.tiaozhuan:hover
+{
+    text-decoration: underline;
+}
+.zhinan
+{
+    background: url("bg_listNum.png");
+    background-repeat: no-repeat;
+    color: white;
+    float: left;
+    margin: 4px 10px 0 0;
+    width: 15px;
+    height: 18px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+.zhinanziti
+{
+    text-decoration: none;
+    color: #0a8cd2;
+}
+.zhinanziti:hover
+{
+    text-decoration: underline;
+}
+.bianxiao
+{
+    font-size: 10px;
+}
+
+li
+{
+    list-style: none;
+}
+.yidong
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.zhuceba
+{
+    position: relative;
+    left: 8px;
+}
+.xing2,.xing3 {
+    position: relative;
+    top: 4px;
+}
+.iner-logo{
+    height: 60px;
+    width: 300px;
+    margin: 20px auto 0;
+}
