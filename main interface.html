@@ -5,22 +5,262 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="main%20interface.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.js"></script>
+    <!--<script src="js/bootstrap.js"></script>-->
+    <!--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="css/main%20interface.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body >
-      <p class="title">One Web, Any Device</p>
-      <h1 class="title1">万物互联，极致体验</h1>
-      <p class="title2">【HTML5】全面兼容移动开发设备<br>颠覆原生应用指日可待，传智播客重新定义前端开发</p>
-      <ul>
-          <li><i class="fa fa-apple">122</i></li>
-          <li><i class="fa fa-weixin"></i></li>
-          <li><i class="fa fa-desktop"></i></li>
-          <li><i class="fa fa-laptop"></i></li>
-          <i>123</i>
-          <em>123</em>
-          123
-      </ul>
+<body>
+     <div class="top-nav" id="a">
+         <img src="image/logo.jpg" alt="">
+            <div class="left-content">
+                <a href="#">博客</a>
+                <a href="#">失物招领</a>
+                <a href="#">查课表</a>
+                <a href="#">表白墙</a>
+                <a href="#">二手物品</a>
+                <a href="#">教室预约</a>
+            </div>
+         <div class="right-content">
+             <a href="#">学生-老师沟通</a>
+             <a href="#">校友活动</a>
+             <a href="#">论坛</a>
+             <a href="#">趣味游戏</a>
+             <a href="#">学校直播</a>
+         </div>
+
+         <div class="btn-group">
+             <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu">
+                 <li><a href="#">学生-老师沟通</a></li>
+                 <li><a href="#">校友活动</a></li>
+                 <li><a href="#">论坛</a></li>
+                 <li><a href="#">趣味游戏</a></li>
+                 <li><a href="#">学校直播</a></li>
+                 <li><a href="#">学校直播</a></li>
+             </ul>
+         </div>
+         <form action="" method="post">
+             <input type="text" placeholder="SEARCH" name="search">
+             <input type="submit" name="submit" value="搜索">
+         </form>
+     </div>
+    <div class="center">
+        <ul class="right-nav">
+            <li class="title">学院</li>
+            <li><a href="#">能源与安全工程学院</a></li>
+            <li><a href="#">土木工程学院</a> </li>
+            <li><a href="#">机电工程学院</a></li>
+            <li><a href="#">信息与电气工程学院</a></li>
+            <li><a href="#">计算机科学与工程学院</a></li>
+            <li><a href="#">化学化工学院</a></li>
+            <li><a href="#">数学与计算科学学院</a></li>
+            <li><a href="#">物理学院</a></li>
+            <li><a href="#">生命科学学院</a></li>
+            <li><a href="#"> 建筑与城乡规划学院</a></li>
+            <li><a href="#">人文学院</a></li>
+            <li><a href="#">外国语学院</a></li>
+            <li><a href="#">马克思主义学院</a></li>
+            <li><a href="#">教育学院</a></li>
+            <li><a href="#">商学院</a></li>
+            <li><a href="#">艺术学院</a></li>
+            <li><a href="#">体育学院</a></li>
+            <li><a href="#">管理学院</a></li>
+            <li><a href="#">法学院</a></li>
+            <li class="bottom"><a href="#">潇湘学院</a></li>
+        </ul>
+        <div class="most">
+            <div class="img">
+                <div class="float-img right-img">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <a href="http://news.hnust.cn/xyxw/92667.htm" target="_blank"><img src="image/tuling.jpg" alt="..."></a>
+                                <div class="carousel-caption">
+                                     <p>第十五届“图灵”科技节顺利开幕</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="http://news.hnust.cn/xyxw/41680.htm" target="_blank"><img src="image/tuanxuan.jpg" alt="..."></a>
+                                <div class="carousel-caption">
+                                    <p>知名建筑城规专家系列讲座开讲</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="http://news.hnust.cn/xyyw/91747.htm" target="_blank"><img src="image/handwriting.jpg" alt="..."></a>
+                                <div class="carousel-caption">
+                                    <p>团省委书记汤立斌一行来校调研</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="float-img left-img">
+                    <a href="http://news.hnust.cn/ztxw/qzlxjysjhd/index.htm" target="_blank"><img src="image/qunzhong.jpg" alt=""></a>
+                    <p>群众路线教育实践活动</p>
+                </div>
+                <div class="float-img left-img">
+                    <a href="http://news.hnust.cn/ztxw/wdzgm/index.htm" target="_blank"><img src="image/中国梦.jpg" alt=""></a>
+                    <p>我的中国梦</p>
+                </div>
+            </div>
+            <ul class="most-center-montent">
+                <li>
+                    <a href="">【教学礼拜】聚焦教学全员反思 紧扣中心持续改进——全校师生认真组织开展“教学礼拜”....</a>
+                        <p> 5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                    <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">副省长吴桂英来校调研</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                    <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+
+                </li>
+                <li>
+                    <a href="">【教学礼拜】走进班会 倾听学生声音</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">我校获湘潭市“民族团结进步行动”二等奖</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">【青年风采】数学建模里的“智”青春</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">学校组织师生观看纪录片《厉害了，我的国》</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">【教学礼拜】学校召开“教学礼拜”学生座谈会</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">校党委学习中心组开展“新时代·新发展”专题集中学习</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">学校部署推进驻村帮扶工作</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">我校师生热议习近平总书记在纪念马克思诞辰200周年大会上的讲话</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">【青年风采】傅志强：“我更喜欢做有挑战的事”</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">长江学者王杰教授来我校讲学</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">湖南农业大学副校长曹福祥一行来校交流</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">我校师生热议习近平总书记在北京大学师生座谈会上的讲话</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">我校组织参加省纪委驻省教育厅纪检组视频会议</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">我校青年教师唐亮作品入选第六届全国青年美术作品展</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">我校青年教师唐亮作品入选第六届全国青年美术作品展</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">让科研“牛人”成为校园偶像</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">大学生理财需“开源节流”</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - - <h class="number">100</h>评论</div></h>
+                </li>
+                <li>
+                    <a href="">勇做创新创业时代的“弄潮儿”</a>
+                    <p>5月8日为本学期“教学礼拜”主题日，全校师生围绕“反思，改进”主题，结合本科教学审核评估整改，各单位聚焦教学中心工作，纷纷组织专题研讨、系部教师会、年级大会以及主题班会等活动，通过各自反思日常工作和学习所存在的不足，并就如何改进服务、提高管理质量、提升教</p>
+                                     <h><div class="left-float">2018年5月3日</div><div class="right-float"><h class="number">2135</h>阅读 - <h class="number">100</h>评论</div></h>
+                </li>
+            </ul>
+        </div>
+        <div class="most-right-wrap">
+            <div class="top">
+                <p><span></span>赛事通知</p>
+                <ul>
+                    <li><a href="">赛事活动“新九华杯”第二届湖南科技大学记者文化节•新闻作品大赛</a></li>
+                    <li><a href="">“新九华杯”第二届湖南科技大学记者文化节▪微博大赛</a></li>
+                    <li><a href="">“百年大公看湖南”——第五届”我是记者“湖南科技大学选拔赛</a></li>
+                    <li><a href="">芳菲正盛 优秀女生颂青春</a></li>
+                </ul>
+            </div>
+            <div class="right-bottom">
+                <p><span></span>联系我们</p>
+                <div class="float-top">
+                    <div class="ermweima"><img src="image/erweima.jpg" alt=""></div>
+                    <div class="p">请扫描二维码联系客服</div>
+                    <div><i class="fa fa-envelope"></i>1152957995@qq.com</div>
+                    <div class="phone"><i class="fa fa-phone-square"></i>110</div>
+                    <div><i class="fa fa-qq"></i><a href="">QQ客服</a></div>
+                    <div><i class="fa fa-user"></i><a href="">客服论坛</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <a href="#a" title="返回顶部" class="last"><i class="fa fa-angle-up fa-2x"></i></a>
 </body>
 </html>

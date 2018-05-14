@@ -6,7 +6,7 @@
 .content{
     height: 800px;
     border: 1px  solid black;
-    background: url(http://i2.wp.com/thesims.i-circle.net/files/2013/03/142.jpg) no-repeat top center;
+    background: url(../image/get-back-bgi.jpg) no-repeat top center;
    background-size: 100% 100%;
 }
 /*logo部分开始*/
@@ -18,7 +18,7 @@
 }
 @font-face {
     font-family: name;
-    src: url(font/name.ttf);
+    src: url(../fonts/name.ttf);
 }
 .logo-name{
     display: inline-block;
@@ -34,7 +34,8 @@
     color: white;
 }
 .logo1{
-    margin: 20px 300px;
+    width: 400px;
+    margin: 20px auto;
 }
 /*logo部分结束*/
 /*注册界面开始*/
