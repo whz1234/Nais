@@ -1,0 +1,165 @@
+/*css区*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+    height: 800px;
+    border: 1px  solid black;
+    background: url(../image/get-back-bgi.jpg) no-repeat top center;
+    background-size: 100% 100%;
+}
+/*logo部分开始*/
+.logo{
+    width: 130px;
+    border-radius: 50%;
+    vertical-align: -10px;
+    margin-right: 10px;
+}
+@font-face {
+    font-family: name;
+    src: url(../fonts/name.ttf);
+}
+.logo-name{
+    display: inline-block;
+}
+.logo-name .name{
+    font-family: name;
+    font-size: 55px;
+    color: white;
+    text-indent: 0.5em;
+}
+.name1{
+    font-weight: 600;
+    color: white;
+}
+.logo1{
+    width: 900px;
+    margin: 20px auto;
+}
+/*logo部分结束*/
+/*注册界面开始*/
+.register{
+    width: 960px;
+    height: 580px;
+    border: 1px solid black;
+    margin: 0px auto;
+    background-color: white;
+}
+.title{
+    line-height: 69px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+    background-color: honeydew ;
+    /*border: 1px solid black;*/
+}
+.register ul{
+    margin: 20px auto 50px;
+    /*border: 1px solid black;*/
+}
+.register li{
+    width: 232px;
+    height: 50px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    /*margin-left: 50px;*/
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.register .a{
+    line-height: 50px;
+    font-size: 14px;
+    color: lightseagreen;
+    background: url("../image/nav_light.png") no-repeat center center;
+    margin-left: 150px;
+}
+.register .b{
+    line-height: 50px;
+    font-size: 14px;
+    color: white;
+    background: url("../image/nav_deep(2).png") no-repeat center center;
+}
+.register .c{
+    line-height: 50px;
+    font-size: 14px;
+    color: lightseagreen;
+    background: url("../image/nav_light.png") no-repeat center center;
+}
+form{
+    display: inline-block;
+    margin-left: 300px;
+}
+form span{
+    font-size: 14px;
+    color: gray;
+
+}
+.q1 {
+    width: 240px;
+    border: 1px solid #aaaaaa;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 0px 5px 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.q2 {
+    width: 115px;
+    border: 1px solid #aaaaaa;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 0px 5px 10px;
+    margin-left: 30px;
+
+    /*margin-bottom: 10px;*/
+}
+input:focus{
+    outline: 1px solid lightseagreen;
+}
+form img{
+    width: 65px;
+    height: 30px;
+    vertical-align: -10px
+}
+form a{
+    text-decoration: none;
+}
+[type='button']{
+    width: 120px;
+    height:30px;
+    color: white;
+    background-color: #acacac;
+    border: 1px solid #8b8b8b;
+    margin-top: 30px;
+    margin-left: 105px;
+}
+.last{
+    color: gray;
+    line-height: 30px;
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+}
+[name='fasong']{
+    margin-left: -3px;
+    width: 60px;
+    height: 34px;
+}
+[name='fasong']:hover{
+    background-color: orange;
+}
+[name='button']{
+    width: 100px;
+    height: 30px;
+}
+[name='button']:hover{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+}
+/*注册界面结束*/
