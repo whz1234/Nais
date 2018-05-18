@@ -139,4 +139,8 @@ width: 120px;
     /*border: 1px solid black;*/
     margin-top: 20px;
 }
+[type='button']:hover{
+    cursor: pointer;
+    background-color: orange;
+}
 /*注册界面结束*/

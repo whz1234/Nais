@@ -1,4 +1,4 @@
-/*cssÇø*/
+/*cssï¿½ï¿½*/
 *{
     padding: 0px;
     margin: 0px;
@@ -9,7 +9,7 @@
     background: url(../image/get-back-bgi.jpg) no-repeat top center;
     background-size: 100% 100%;
 }
-/*logo²¿·Ö¿ªÊ¼*/
+/*logoï¿½ï¿½ï¿½Ö¿ï¿½Ê¼*/
 .logo{
     width: 130px;
     border-radius: 50%;
@@ -37,8 +37,8 @@
     width: 900px;
     margin: 20px auto;
 }
-/*logo²¿·Ö½áÊø*/
-/*×¢²á½çÃæ¿ªÊ¼*/
+/*logoï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½*/
+/*×¢ï¿½ï¿½ï¿½ï¿½æ¿ªÊ¼*/
 .register{
     width: 960px;
     height: 580px;
@@ -164,5 +164,6 @@ form a{
     width: 100px;
     height: 30px;
     background-color: orange;
+    cursor: pointer;
 }
-/*×¢²á½çÃæ½áÊø*/
+/*×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/

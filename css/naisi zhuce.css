@@ -90,14 +90,13 @@ i{
 }
 .chuangko
 {
-    height: 30px;
-    width: 440px;
-
-    display:inline;
+    /*!*height: 30px;*!*/
+    /*width: 440px;*/
+    display:inline-block;
 }
 .text
 {
-    width: 112px;
+    width: 120px;
     box-shadow: none;
 }
 .text:focus{
@@ -302,7 +301,49 @@ li
     top: 4px;
 }
 .iner-logo{
-    height: 60px;
-    width: 300px;
+    height: 150px;
+    width: 400px;
     margin: 20px auto 0;
+
+}
+@font-face {
+    font-family:name;
+    src:url('../fonts/name.ttf');
+}
+.iner-logo img{
+    width: 150px!important;
+
+}
+.iner-logo span{
+    font-family: name;
+    font-size: 60px;
+    margin-top: -20px;
+    vertical-align: 65px;
+    margin-left: -30px;
+}
+.xing1{
+    margin-left: -4px;
+}
+.attachment{
+    display: inline-block;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.chuangko .hhh{
+    margin-left: 1px!important;
+}
+.attachment a{
+   display: inline-block;
+    font-size: 13px;
+}
+.text{
+    margin-left: 15px;
+    width: 120px;
+}
+.ziti{
+    margin-left: 5px;
+}
+.lll{
+    display: inline-block;
 }

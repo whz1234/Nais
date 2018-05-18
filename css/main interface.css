@@ -277,4 +277,27 @@ body{
     background-color: rgba(255, 0, 0, 0.59);
     color: white;
 }
+.haha{
+    display: none;
+}
+#container{
+    display: none;
+}
+@media all and (max-width: 376px) {
+    .top-nav{
+        display: none;
+    }
+    .center{
+        display: none;
+    }
+    .most-right-wrap{
+        display: none;
+    }
+    .haha{
+        display: block;
+    }
+    #container{
+        display: block;
+    }
+}
 /*center结束*/

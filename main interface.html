@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="css/audio.css">
+    <title>奈斯官网</title>
 </head>
 <body>
      <div class="top-nav" id="a">
@@ -28,14 +29,14 @@
                 <a href="#">失物招领</a>
                 <a href="#">查课表</a>
                 <a href="#">表白墙</a>
-                <a href="#">二手物品</a>
+                <a href="ershou.html">二手物品</a>
                 <a href="#">教室预约</a>
             </div>
          <div class="right-content">
              <a href="#">学生-老师沟通</a>
              <a href="#">校友活动</a>
              <a href="#">论坛</a>
-             <a href="#">趣味游戏</a>
+             <a href="http://www.4399.com">趣味游戏</a>
              <a href="#">学校直播</a>
          </div>
 
@@ -47,8 +48,7 @@
                  <li><a href="#">学生-老师沟通</a></li>
                  <li><a href="#">校友活动</a></li>
                  <li><a href="#">论坛</a></li>
-                 <li><a href="#">趣味游戏</a></li>
-                 <li><a href="#">学校直播</a></li>
+                 <li><a href="http://www.4399.com">趣味游戏</a></li>
                  <li><a href="#">学校直播</a></li>
              </ul>
          </div>
@@ -262,5 +262,35 @@
         </div>
     </div>
      <a href="#a" title="返回顶部" class="last"><i class="fa fa-angle-up fa-2x"></i></a>
+     <div class="haha">此功能正在研发中....敬请期待。<br><br>请买个电脑然后在电脑上就正常可以访问该网站全部功能了！！！<br><br>以下是一个音乐小插件，如果你没电脑的，你就只能在这个本来很牛逼的网站上听歌了。所以快点叫你妈或你爸给你买电脑吧！！！</div>
+     <div id="container">
+         <div id="player">
+             <!--引入音频源文件-->
+             <audio id="audio">
+                 <source src="music/angelina.mp3" type="audio/mpeg" codecs="mp3"/>
+             </audio>
+             <!--引入专辑封面图片 -->
+             <img src="image/angelina.jpg">
+             <!--制作显示歌词的按钮-->
+             <label class="to-lyrics-label" for="to-lyrics"><i class="fa fa-caret-down fa-lg"></i></label>
+             <input type="checkbox" id="to-lyrics"><!-- 歌词切换-->
+             <div class="cover">
+                 <div class="controls">
+                     <button  title="循环播放"><i class="fa fa-retweet fa-lg"></i></button>
+                     <button  title="上一曲"><i class="fa fa-backward fa-2x"></i></button>
+                     <button id="play-pause" title="播放" onclick="togglePlayPause()"><i class="fa fa-play fa-3x"></i></button><!--播放/暂停切换按钮-->
+                     <button  title="下一曲"><i class="fa fa-forward fa-2x"></i></button>
+                     <button title="顺序播放"><i class="fa fa-random fa-lg"></i></button>
+                     <input  name="volume" id="volume" min="0" max="1" step="0.1" type="range" onchange="setVolume()" /><!--音量控件-->
+                 </div><!-- #controls -->
+                 <div class="info">
+                     <p class="song"><a href="#" target="_blank">Angelina</a></p>
+                     <p class="author"><a href="#" target="_blank">lou bega</a></p>
+                 </div><!-- #info -->
+                 <p class="scroll">收起</p>
+             </div><!-- cover -->
+         </div><!-- #player -->
+     </div><!-- #container -->
+     <script src="js/audio.js" charset="gbk"></script>
 </body>
 </html>
